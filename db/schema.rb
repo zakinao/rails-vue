@@ -33,8 +33,8 @@ ActiveRecord::Schema.define(version: 2021_03_06_080828) do
     t.string "name", default: "", null: false
     t.string "department", default: "", null: false
     t.integer "gender", default: 0, null: false
-    t.date "birth", null: false
-    t.date "joined_date", null: false
+    t.date "birth"
+    t.date "joined_date"
     t.bigint "payment", default: 0, null: false
     t.text "note", default: "", null: false
     t.datetime "created_at", precision: 6, null: false
